@@ -118,14 +118,28 @@ p{
   color: black;
   text-align: center;
 }
-.center{
+
+.ogcar{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
   border-radius: 30%;
 }
-
+.lynx{
+  display: block;
+  width: 250px;
+  height: 340px;
+  float: right;
+}
+.tiger{
+  display: block;
+  width: 300px;
+  height: 340px;
+  float: left;
+  transform: translate(-40px);
+  margin-right: -60px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

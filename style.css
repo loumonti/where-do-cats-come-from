@@ -10,12 +10,12 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-img{
-  width: 400px;
-  height: 300px;
-}
+
 body {
-  background-color: #FFF9EC;}
+  background-image: url("https://i.pinimg.com/736x/ee/6f/88/ee6f888ffde2b2cbe483879d38132e1f.jpg");
+  padding: 200px;
+  font-family: "Momo Signature", cursive;
+}
 html {
   color: #222;
   font-size: 1em;
@@ -92,22 +92,38 @@ h1 {
   font-family: "Momo Signature", cursive;
   font-weight: 400;
   font-style: normal;
+  color: #B66878;
+  text-align: center;
 }
 
 h2 {
   font-family: "Momo Signature", cursive;
   font-weight: 400;
   font-style: normal;
+  color: #9FAA74;
+  text-align: center;
 }
 h3{
   font-family: "Momo Signature", cursive;
-  font-weight: 400;
+  font-weight: bold;
   font-style: normal;
+  color: #CA99AB;
+  text-align: center;
+  padding: -3px;
 }
 p{
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
+  color: black;
+  text-align: center;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 30%;
 }
 
 /* ==========================================================================
